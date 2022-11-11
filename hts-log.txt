@@ -1,0 +1,23 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 11 Nov 2022 17:27:32 at https://aero.engin.umich.edu/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://aero.engin.umich.edu/ -O1 "C:\My Web Sites\vin28" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:27:35	Warning: 	Note: due to https://aero.engin.umich.edu remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+17:28:45	Error: 	"Method Not Allowed" (405) at link https://aero.engin.umich.edu/xmlrpc.php (from https://aero.engin.umich.edu/)
+17:28:45	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://aero.engin.umich.edu/)
+17:30:59	Error: 	Exit requested by shell or user
+17:31:00	Warning: 	File not added due to mirror cancel: https://aero.engin.umich.edu/wp-content/uploads/sites/2/2021/05/about-history-card.jpg
+17:31:03	Error: 	Exit requested by shell or user
+17:31:03	Error: 	"" (-1) at link https://aero.engin.umich.edu/2022/10/20/mourning-a-legend-in-space-exploration/ (from https://aero.engin.umich.edu/)
+17:31:03	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 31 seconds : 224 links scanned, 220 files written (20908063 bytes overall) [13964740 bytes received at 66183 bytes/sec], 8768094 bytes transferred using HTTP compression in 169 files, ratio 19%, 16.0 requests per connection
+(6 errors, 2 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

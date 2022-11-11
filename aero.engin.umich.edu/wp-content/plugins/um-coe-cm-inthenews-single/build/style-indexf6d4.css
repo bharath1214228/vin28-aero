@@ -1,0 +1,136 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+:root {
+	--base-blue: #00274c;
+	--base-maize: #ffcb05;
+	--base-dkgray: #202020;
+	--base-gray: #e9e9e9;
+	--base-white: #fafafa;
+	--base-black: #131516;
+
+	--open-sans-font: "Open Sans", serif;
+	--roboto-font: "Roboto", sans-serif;
+	}
+
+.wp-block-in-the-news {
+	margin: 1em 0;
+}
+
+.wp-block-in-the-news__inner-container {
+	border: solid 1px #00274c;
+	border: solid 1px var(--base-blue);
+	border-top: solid 6px #00274c;
+	border-top: solid 6px var(--base-blue);
+	padding: 1em 0.5em;
+}
+
+.wp-block-in-the-news__heading {
+	border-left: solid 2px #ffcb05;
+	border-left: solid 2px var(--base-maize);
+	margin: 0.5em 0;
+}
+
+.wp-block-in-the-news__heading p {
+	font-family: "Roboto", sans-serif;
+	font-family: var(--roboto-font);
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0 0.5em;
+	text-transform: uppercase;
+}
+
+.wp-block-in-the-news__item {
+	border-bottom: solid 1px #131516;
+	border-bottom: solid 1px var(--base-black);
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+.wp-block-in-the-news__item:last-child {
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.wp-block-in-the-news__heading .wp-block-in-the-news__pub {
+	margin-top: 0.5em;
+}
+
+.wp-block-in-the-news__item a.wp-block-in-the-news__title {
+	box-shadow: inset 0 -.05em 0 0 #ffcb05;
+	box-shadow: inset 0 -.05em 0 0 var(--base-maize);
+	color: #00274c;
+	color: var(--base-blue);
+	display: inline;
+	font-family: "Roboto", sans-serif;
+	font-family: var(--roboto-font);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-decoration: none;
+}
+
+.wp-block-in-the-news__item a.wp-block-in-the-news__title:hover {
+	box-shadow: inset 0 -1.15em 0 0 #ffcb05;
+	box-shadow: inset 0 -1.15em 0 0 var(--base-maize);
+}
+
+.wp-block-in-the-news__excerpt {
+	line-height: 1.5;
+	margin: 0 0.25em;
+}
+
+@media screen and (max-width: 48rem) {
+
+	.wp-block-in-the-news {
+		padding: 1em;
+	}
+}
+
+/* Pattern */
+
+.in-the-news {
+	margin: 0 auto;
+}
+
+.in-the-news__header {
+	font-family: "Roboto", sans-serif;
+	font-family: var(--roboto-font);
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0.5em 0;
+	padding: 0.5em 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 80%;
+}
+
+.in-the-news__header:not(.has-background) {
+	background-color: #00274c;
+	background-color: var(--base-blue);
+}
+
+.in-the-news__header:not(.has-text-color) {
+		color: #fafafa;
+		color: var(--base-white);
+}
+
+.wp-block-group.in-the-news__content .wp-block-group__inner-container {
+	border: solid 1px #00274c;
+	border: solid 1px var(--base-blue);
+	border-top: solid 6px #00274c;
+	border-top: solid 6px var(--base-blue);
+	padding: 1em;
+	width: 100%;
+}
+
+.in-the-news__content .wp-block-group__inner-container {
+	width: 100%;
+}
+

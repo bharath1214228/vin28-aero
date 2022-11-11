@@ -1,0 +1,53 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-in-the-news-list {
+	margin-bottom: 1em;
+	max-width: 42rem;
+	width: calc(100% - 2rem);
+	float: none;
+	margin: 0;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.in-the-news-list__header {
+	font-family: Roboto,Helvetica Neue,Arial Narrow,sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 16px;
+	background-color: #002a5b;
+	color: #fff;
+	width: 80%;
+	text-align: center;
+	padding: .5em 0;
+	margin: .5em 0;
+}
+
+.wp-block-in-the-news-list__cont {
+	border: 1px solid #002a5b;
+	border-top: 6px solid #002a5b;
+	padding: 1em;
+	width: 100%;
+}
+
+.wp-block-in-the-news-list.alignfull {
+	max-width: none;
+}
+
+.wp-block-in-the-news-list .wp-block-in-the-news-list__inner-container.alignfull .in-the-news-list__header,
+.wp-block-in-the-news-list .wp-block-in-the-news-list__inner-container.alignwide .in-the-news-list__header {
+	width: 100%;
+}
+
+/* alignment text change */
+.wp-block-in-the-news-list .wp-block-in-the-news-list__inner-container.alignright {
+	text-align: left;
+}
+
